@@ -1,0 +1,161 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+		font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 130px;
+		background-color: #F0F2F5;
+
+
+}
+/*block-fb-logo*/
+.fb-logo-content{
+	width: 450px;
+	margin-right: 100px;
+	}
+.bc-logo{
+	width: 301px;
+	height: 106px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg");
+}
+.fb-logo-content>p{
+	font-size: 25px;
+font-family: sans-serif;
+padding-left:32px;
+}
+
+/*block-forma-mutq*/
+.forma-mutq{
+	border:2px solid black;
+	margin-left: 50px;
+	background-color:#fff;
+	height: 370px;
+	width: 400px;
+	border-radius: 8px;
+	border:1px solid #fff;
+  box-shadow: 0px 0px 4px gray;
+  margin-left: 60px;
+}
+.login-parol{
+	margin: 20px;
+	display: block;
+	width: 350px;
+	padding: 15px;
+	border:1px solid #DDDFE2;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.login-parol:hover{
+	cursor: text;
+}
+.login-parol:active{
+	color:blue;
+	font-size: 20px;
+border:1px solid blue;
+transition: 2s;
+}
+input[type=submit]{
+	margin: 20px;
+	display: block;
+	width: 350px;
+	padding: 15px;
+	border:1px solid #DDDFE2;
+	border-radius: 10px;
+	background-color: #1877F2;
+	color: #fff;
+	font-size: 20px;
+}
+input[type=submit]:hover{
+	cursor: pointer;
+	background-color: blue;
+	transition: 1s;
+}
+.forma-mutq>a{
+	color: #1877F2;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+.forma-mutq>a:hover{
+	text-decoration: underline;
+}
+.forma-mutq>button{
+	background-color: #42B72A;
+	color: #fff;
+	padding: 20px;
+	border:0;
+ border-radius: 10px;
+ margin:right;
+
+}
+.new-acaunt>button{
+	background-color: #42B72A;
+	color: #fff;
+	border:none;
+	padding: 10px;
+ border-radius: 5px;
+ 	font-size: 20px;
+ 	margin-left: 110px;
+
+}
+.new-acaunt>button:hover{
+	cursor: pointer;
+	background-color: green;
+	transition: 1s;
+}
+.new-stranica{
+	margin-top: 55px;
+	font-size: 20px;
+	text-align:center;
+}
+.new-stranica>a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+.new-stranica>a:hover{
+	text-decoration: underline;
+}
+.new-stranica>span{
+	font-size: 14px;
+}
+/*padvalayin mas Footer*/
+/*.footer-language{
+	width: 900px;
+}*/
+footer{
+	padding: 30px;
+}
+.footer-language{
+	padding: 20px;
+	margin-left: 136px;
+}
+
+ul>li{
+	margin:8px;
+	display: inline;
+	list-style: none;
+	font-size: 12px;
+	color: grey;
+}
+.footer-menu{
+padding: 20px;
+	margin-left: 136px;
+}
+.footer-coprygt{
+	margin-left: 165px;
+	font-size: 11px;
+	color: gray;
+}
